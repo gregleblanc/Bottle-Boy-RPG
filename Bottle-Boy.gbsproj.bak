@@ -1770,24 +1770,6 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": {
-                                                "type": "variable",
-                                                "value": "0"
-                                            },
-                                            "y": {
-                                                "type": "variable",
-                                                "value": "10"
-                                            },
-                                            "moveType": "vertical",
-                                            "useCollisions": true,
-                                            "__collapse": false
-                                        },
-                                        "id": "d8ab2149-c019-4329-96c7-be478068e5d5"
-                                    },
-                                    {
                                         "command": "EVENT_IF_EXPRESSION",
                                         "args": {
                                             "expression": "$L2$ < $00$-1",
@@ -2192,7 +2174,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "5537b424-3d0a-4afa-9deb-17dcc7cde40b",
-                    "x": 6,
+                    "x": 4,
                     "y": 11
                 }
             ],
