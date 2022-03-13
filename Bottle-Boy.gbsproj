@@ -6605,14 +6605,14 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -6625,14 +6625,14 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -6691,21 +6691,13 @@
                     "animate": false,
                     "spriteSheetId": "c9b1da6c-ef4a-4771-894b-b22ec20ac5d1",
                     "direction": "right",
-                    "moveSpeed": 0.7,
+                    "moveSpeed": 0.6,
                     "animSpeed": 7,
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [],
                     "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "e135a249-3220-42eb-b12d-feca2af76c5f"
-                        },
                         {
                             "command": "EVENT_IF_TRUE",
                             "args": {
@@ -6924,7 +6916,7 @@
                                                         "actorId": "player",
                                                         "direction": "up",
                                                         "__collapseElse": true,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -7004,12 +6996,20 @@
                                                     "children": {
                                                         "true": [
                                                             {
+                                                                "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "5ead6f82-db2e-42db-a266-28b3855f41b9"
+                                                            },
+                                                            {
                                                                 "command": "EVENT_INC_VALUE",
                                                                 "args": {
                                                                     "variable": "10",
                                                                     "__collapse": true
                                                                 },
-                                                                "id": "ed125ce3-f4ac-406d-9549-653f3589323c"
+                                                                "id": "4e9ea757-a246-441f-aa08-0a44aa168eab"
                                                             },
                                                             {
                                                                 "command": "EVENT_INC_VALUE",
@@ -7058,7 +7058,7 @@
                                                         "actorId": "player",
                                                         "direction": "left",
                                                         "__collapseElse": true,
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -7098,7 +7098,7 @@
                                                                 "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                                                 "args": {
                                                                     "actorId": "$self$",
-                                                                    "x": -4,
+                                                                    "x": -5,
                                                                     "y": 0,
                                                                     "moveType": "horizontal",
                                                                     "useCollisions": true,
@@ -7124,7 +7124,8 @@
                                                             {
                                                                 "command": "EVENT_INC_VALUE",
                                                                 "args": {
-                                                                    "variable": "0"
+                                                                    "variable": "0",
+                                                                    "__collapse": true
                                                                 },
                                                                 "id": "44ea8e2c-fde1-4201-94eb-9be437df835a"
                                                             },
@@ -7155,7 +7156,7 @@
                                                                 "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                                                 "args": {
                                                                     "actorId": "$self$",
-                                                                    "x": 4,
+                                                                    "x": 5,
                                                                     "y": 0,
                                                                     "moveType": "horizontal",
                                                                     "useCollisions": true,
@@ -7435,10 +7436,10 @@
                 {
                     "name": "",
                     "id": "35d9d795-6127-412f-8bfc-c141cfddb15e",
-                    "x": 6,
+                    "x": 9,
                     "y": 13,
-                    "width": 8,
-                    "height": 3,
+                    "width": 2,
+                    "height": 1,
                     "script": [
                         {
                             "command": "EVENT_SWITCH_SCENE",
@@ -11239,6 +11240,10 @@
             "name": "Patio-Door"
         },
         {
+            "id": "7",
+            "name": "Yes"
+        },
+        {
             "id": "9",
             "name": "Variable 9"
         },
@@ -11521,10 +11526,6 @@
         {
             "id": "189b8c61-52e7-450c-b1f2-c92a0d1dadd3__L0",
             "name": "Local 0"
-        },
-        {
-            "id": "7",
-            "name": "Yes"
         }
     ],
     "engineFieldValues": [
@@ -11534,17 +11535,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "d670592a-3fc6-48c8-9808-33e735b88ac5",
-        "startX": 9,
-        "startY": 9,
+        "startSceneId": "1c0287cb-ffd3-41cd-b03a-cdfd5d553fb5",
+        "startX": 10,
+        "startY": 8,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1788,
-        "worldScrollY": 3944,
-        "zoom": 740.4489135742188,
+        "worldScrollX": 1017,
+        "worldScrollY": 636,
+        "zoom": 410.17218017578125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
