@@ -2016,7 +2016,7 @@
                                     "Woof\n"
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "29572d5e-b612-437b-9692-7f63f4b9a7dd"
                         },
@@ -2261,7 +2261,7 @@
                                                 "Send Sam back \nto bed?"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "22064133-a9ab-48e6-a432-f91b90cb4177"
                                     },
@@ -6605,14 +6605,14 @@
                 0,
                 0,
                 0,
-                0,
-                0,
                 15,
                 15,
                 15,
                 15,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -6808,6 +6808,16 @@
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Come here Sam, \nlet's play fetch!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "bd6ce18f-64db-4eec-9ac4-90647bb64542"
+                        },
                         {
                             "command": "EVENT_ACTOR_SET_STATE",
                             "args": {
@@ -7264,6 +7274,15 @@
                                                     "id": "1ee47e7f-b9d3-4af2-97b9-53fa4862efcc"
                                                 },
                                                 {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "7753e4f6-5133-4ba1-8574-d261e05d2152",
+                                                        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "e12ccda7-7306-41c9-8b4f-ef3499da658a"
+                                                },
+                                                {
                                                     "command": "EVENT_WAIT",
                                                     "args": {
                                                         "time": 0.5,
@@ -7312,7 +7331,7 @@
                                                     "args": {
                                                         "actorId": "7753e4f6-5133-4ba1-8574-d261e05d2152",
                                                         "spriteStateId": "Empty",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "e1feca23-1a68-4b0c-8d21-6861533ebc86"
                                                 },
@@ -7322,7 +7341,7 @@
                                                         "actorId": "7753e4f6-5133-4ba1-8574-d261e05d2152",
                                                         "vectorX": "T0",
                                                         "vectorY": "T1",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "d5486def-48ba-4997-b4a1-3c17d1730b41"
                                                 },
@@ -7338,7 +7357,7 @@
                                                             "type": "variable",
                                                             "value": "T1"
                                                         },
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "5e4ecb0b-329a-4703-97c0-4b7640142f6c"
                                                 },
@@ -7436,10 +7455,10 @@
                 {
                     "name": "",
                     "id": "35d9d795-6127-412f-8bfc-c141cfddb15e",
-                    "x": 6,
+                    "x": 9,
                     "y": 13,
-                    "width": 8,
-                    "height": 3,
+                    "width": 2,
+                    "height": 1,
                     "script": [
                         {
                             "command": "EVENT_SWITCH_SCENE",
@@ -11137,6 +11156,13 @@
     ],
     "fonts": [
         {
+            "id": "7a8a1b60-4c96-4174-8365-595f1a348cbb",
+            "name": "ascii",
+            "width": 128,
+            "height": 112,
+            "filename": "ascii.png"
+        },
+        {
             "id": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
             "name": "GBS Mono",
             "width": 128,
@@ -11238,6 +11264,10 @@
         {
             "id": "6",
             "name": "Patio-Door"
+        },
+        {
+            "id": "7",
+            "name": "Yes"
         },
         {
             "id": "9",
@@ -11522,10 +11552,6 @@
         {
             "id": "189b8c61-52e7-450c-b1f2-c92a0d1dadd3__L0",
             "name": "Local 0"
-        },
-        {
-            "id": "7",
-            "name": "Yes"
         }
     ],
     "engineFieldValues": [
@@ -11543,9 +11569,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 120,
-        "worldScrollY": 0,
-        "zoom": 98.67218017578125,
+        "worldScrollX": 532,
+        "worldScrollY": 207,
+        "zoom": 303.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -11578,7 +11604,7 @@
             728
         ],
         "showNavigator": true,
-        "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "defaultFontId": "7a8a1b60-4c96-4174-8365-595f1a348cbb",
         "defaultCharacterEncoding": "",
         "defaultPlayerSprites": {
             "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
