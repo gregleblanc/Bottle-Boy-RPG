@@ -2013,7 +2013,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Woof\n"
+                                    "Woof!\n"
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
@@ -2134,9 +2134,10 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Lets go to the \nbackyard instead."
+                                                "Let's go to the backyard instead."
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": true
                                         },
                                         "id": "0716c11e-1ca0-4e74-9f75-84c79bf03774"
                                     }
@@ -2258,7 +2259,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Send Sam back \nto bed?"
+                                                "Send Sam back to bed?"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -6812,9 +6813,10 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Come here Sam, \nlet's play fetch!"
+                                    "Come here Sam, let's play fetch!"
                                 ],
-                                "avatarId": ""
+                                "avatarId": "",
+                                "__collapse": true
                             },
                             "id": "bd6ce18f-64db-4eec-9ac4-90647bb64542"
                         },
@@ -7068,7 +7070,7 @@
                                                         "actorId": "player",
                                                         "direction": "left",
                                                         "__collapseElse": true,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -7272,15 +7274,6 @@
                                                         "__collapse": true
                                                     },
                                                     "id": "1ee47e7f-b9d3-4af2-97b9-53fa4862efcc"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "7753e4f6-5133-4ba1-8574-d261e05d2152",
-                                                        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "e12ccda7-7306-41c9-8b4f-ef3499da658a"
                                                 },
                                                 {
                                                     "command": "EVENT_WAIT",
@@ -11038,10 +11031,10 @@
             "id": "default-sprite",
             "name": "Default Sprites",
             "colors": [
-                "F8F0E0",
-                "D88078",
-                "B05010",
-                "000000"
+                "E8F8E0",
+                "B0F088",
+                "509878",
+                "202850"
             ],
             "defaultName": "Default Sprites",
             "defaultColors": [
@@ -11055,10 +11048,10 @@
             "id": "default-ui",
             "name": "Default UI",
             "colors": [
-                "F8F8B8",
-                "90C8C8",
-                "486878",
-                "082048"
+                "E8F8E0",
+                "B0C890",
+                "B0F088",
+                "202850"
             ],
             "defaultName": "Default UI",
             "defaultColors": [
@@ -11066,6 +11059,26 @@
                 "90C8C8",
                 "486878",
                 "082048"
+            ]
+        },
+        {
+            "id": "b46d5186-a065-41ca-a1ad-68731392f531",
+            "name": "Palette 9",
+            "colors": [
+                "E8F8E0",
+                "B0F088",
+                "384890",
+                "202850"
+            ]
+        },
+        {
+            "id": "9874c1d2-abc0-4219-bda1-0849aa0b6e67",
+            "name": "Palette 10",
+            "colors": [
+                "E8F8E0",
+                "B0F088",
+                "509878",
+                "202850"
             ]
         }
     ],
@@ -11161,6 +11174,20 @@
             "width": 128,
             "height": 112,
             "filename": "ascii.png"
+        },
+        {
+            "id": "67fa8b66-5b46-42e8-b2eb-2a8ac8793e89",
+            "name": "condensed-mini",
+            "width": 128,
+            "height": 112,
+            "filename": "condensed-mini.png"
+        },
+        {
+            "id": "380deda1-a508-4b8f-835a-153a05fb6b53",
+            "name": "condensed",
+            "width": 128,
+            "height": 112,
+            "filename": "condensed.png"
         },
         {
             "id": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
@@ -11569,8 +11596,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 532,
-        "worldScrollY": 207,
+        "worldScrollX": 530,
+        "worldScrollY": 273,
         "zoom": 303.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -11586,7 +11613,7 @@
             "default-ui"
         ],
         "defaultSpritePaletteIds": [
-            "default-sprite",
+            "dmg",
             "default-sprite",
             "default-sprite",
             "default-sprite",
@@ -11604,7 +11631,7 @@
             728
         ],
         "showNavigator": true,
-        "defaultFontId": "7a8a1b60-4c96-4174-8365-595f1a348cbb",
+        "defaultFontId": "380deda1-a508-4b8f-835a-153a05fb6b53",
         "defaultCharacterEncoding": "",
         "defaultPlayerSprites": {
             "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
