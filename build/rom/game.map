@@ -530,7 +530,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      00003572  s__GSINIT                       
      0000359F  s__GSFINAL                      
      0000398E  l__CODE_2                       
-     00003DC5  l__CODE_7                       
+     00003DAD  l__CODE_7                       
      00004000  _RTC_SELECT_REG                    vm_rtc
      00004000  _rRAMB                             
      00004000  l__CODE_5                       
@@ -1397,7 +1397,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00003DC5 =       15813. bytes (REL,CON)
+_CODE_7                             00074000    00003DAD =       15789. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1456,7 +1456,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00003DC5 =       15813. bytes (REL,CON)
+_CODE_7                             00074000    00003DAD =       15789. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1516,7 +1516,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00003DC5 =       15813. bytes (REL,CON)
+_CODE_7                             00074000    00003DAD =       15789. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1576,7 +1576,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00003DC5 =       15813. bytes (REL,CON)
+_CODE_7                             00074000    00003DAD =       15789. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1636,80 +1636,77 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00003DC5 =       15813. bytes (REL,CON)
+_CODE_7                             00074000    00003DAD =       15789. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      00076392  _spritesheet_3_metasprite_9        spritesheet_3
-     0007639E  _spritesheet_3_metasprite_10       spritesheet_3
-     000763AA  _spritesheet_3_metasprite_11       spritesheet_3
-     000763AE  _spritesheet_3_metasprites         spritesheet_3
-     000763C8  _spritesheet_3_animations          spritesheet_3
-     000763E8  _spritesheet_3_animations_lookup   spritesheet_3
-     000763EC  _spritesheet_3                     spritesheet_3
-     000763FF  ___func_spritesheet_4              spritesheet_4
-     000763FF  _spritesheet_4_metasprite_0        spritesheet_4
-     0007640B  _spritesheet_4_metasprite_1        spritesheet_4
-     00076417  _spritesheet_4_metasprite_2        spritesheet_4
-     00076423  _spritesheet_4_metasprite_3        spritesheet_4
-     0007642F  _spritesheet_4_metasprite_4        spritesheet_4
-     0007643B  _spritesheet_4_metasprite_5        spritesheet_4
-     00076447  _spritesheet_4_metasprite_6        spritesheet_4
-     00076453  _spritesheet_4_metasprite_7        spritesheet_4
-     0007645F  _spritesheet_4_metasprite_8        spritesheet_4
-     00076463  _spritesheet_4_metasprites         spritesheet_4
-     0007647D  _spritesheet_4_animations          spritesheet_4
-     0007649D  _spritesheet_4_animations_lookup   spritesheet_4
-     000764A1  _spritesheet_4                     spritesheet_4
-     000764B4  _spritesheet_none_metasprite       spritesheet_none
-     000764B8  _spritesheet_none_metasprites      spritesheet_none
-     000764BA  _spritesheet_none                  spritesheet_none
-     000764CD  ___func_tilemap_0                  tilemap_0
-     000764CD  _tilemap_0                         tilemap_0
-     00076635  ___func_tilemap_1                  tilemap_1
-     00076635  _tilemap_1                         tilemap_1
-     0007679D  ___func_tilemap_2                  tilemap_2
-     0007679D  _tilemap_2                         tilemap_2
-     00076905  ___func_tilemap_3                  tilemap_3
-     00076905  _tilemap_3                         tilemap_3
-     00076A6D  ___func_tilemap_4                  tilemap_4
-     00076A6D  _tilemap_4                         tilemap_4
-     00076BD5  ___func_tilemap_5                  tilemap_5
-     00076BD5  _tilemap_5                         tilemap_5
-     00076D3D  ___func_tilemap_7                  tilemap_7
-     00076D3D  _tilemap_7                         tilemap_7
-     00076EA5  ___func_tilemap_attr_0             tilemap_attr_0
-     00076EA5  _tilemap_attr_0                    tilemap_attr_0
-     0007700D  ___func_tilemap_attr_1             tilemap_attr_1
-     0007700D  _tilemap_attr_1                    tilemap_attr_1
-     00077175  ___func_tilemap_attr_2             tilemap_attr_2
-     00077175  _tilemap_attr_2                    tilemap_attr_2
-     000772DD  ___func_tilemap_attr_3             tilemap_attr_3
-     000772DD  _tilemap_attr_3                    tilemap_attr_3
-     00077445  ___func_tilemap_attr_4             tilemap_attr_4
-     00077445  _tilemap_attr_4                    tilemap_attr_4
-     000775AD  ___func_tilemap_attr_5             tilemap_attr_5
-     000775AD  _tilemap_attr_5                    tilemap_attr_5
-     00077715  ___func_tilemap_attr_7             tilemap_attr_7
+     00076396  _spritesheet_3_metasprites         spritesheet_3
+     000763B0  _spritesheet_3_animations          spritesheet_3
+     000763D0  _spritesheet_3_animations_lookup   spritesheet_3
+     000763D4  _spritesheet_3                     spritesheet_3
+     000763E7  ___func_spritesheet_4              spritesheet_4
+     000763E7  _spritesheet_4_metasprite_0        spritesheet_4
+     000763F3  _spritesheet_4_metasprite_1        spritesheet_4
+     000763FF  _spritesheet_4_metasprite_2        spritesheet_4
+     0007640B  _spritesheet_4_metasprite_3        spritesheet_4
+     00076417  _spritesheet_4_metasprite_4        spritesheet_4
+     00076423  _spritesheet_4_metasprite_5        spritesheet_4
+     0007642F  _spritesheet_4_metasprite_6        spritesheet_4
+     0007643B  _spritesheet_4_metasprite_7        spritesheet_4
+     00076447  _spritesheet_4_metasprite_8        spritesheet_4
+     0007644B  _spritesheet_4_metasprites         spritesheet_4
+     00076465  _spritesheet_4_animations          spritesheet_4
+     00076485  _spritesheet_4_animations_lookup   spritesheet_4
+     00076489  _spritesheet_4                     spritesheet_4
+     0007649C  _spritesheet_none_metasprite       spritesheet_none
+     000764A0  _spritesheet_none_metasprites      spritesheet_none
+     000764A2  _spritesheet_none                  spritesheet_none
+     000764B5  ___func_tilemap_0                  tilemap_0
+     000764B5  _tilemap_0                         tilemap_0
+     0007661D  ___func_tilemap_1                  tilemap_1
+     0007661D  _tilemap_1                         tilemap_1
+     00076785  ___func_tilemap_2                  tilemap_2
+     00076785  _tilemap_2                         tilemap_2
+     000768ED  ___func_tilemap_3                  tilemap_3
+     000768ED  _tilemap_3                         tilemap_3
+     00076A55  ___func_tilemap_4                  tilemap_4
+     00076A55  _tilemap_4                         tilemap_4
+     00076BBD  ___func_tilemap_5                  tilemap_5
+     00076BBD  _tilemap_5                         tilemap_5
+     00076D25  ___func_tilemap_7                  tilemap_7
+     00076D25  _tilemap_7                         tilemap_7
+     00076E8D  ___func_tilemap_attr_0             tilemap_attr_0
+     00076E8D  _tilemap_attr_0                    tilemap_attr_0
+     00076FF5  ___func_tilemap_attr_1             tilemap_attr_1
+     00076FF5  _tilemap_attr_1                    tilemap_attr_1
+     0007715D  ___func_tilemap_attr_2             tilemap_attr_2
+     0007715D  _tilemap_attr_2                    tilemap_attr_2
+     000772C5  ___func_tilemap_attr_3             tilemap_attr_3
+     000772C5  _tilemap_attr_3                    tilemap_attr_3
+     0007742D  ___func_tilemap_attr_4             tilemap_attr_4
+     0007742D  _tilemap_attr_4                    tilemap_attr_4
+     00077595  ___func_tilemap_attr_5             tilemap_attr_5
+     00077595  _tilemap_attr_5                    tilemap_attr_5
+     000776FD  ___func_tilemap_attr_7             tilemap_attr_7
+     000776FD  _tilemap_attr_7                    tilemap_attr_7
+     00077865  ___func_tileset_11                 tileset_11
 ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00003DC5 =       15813. bytes (REL,CON)
+_CODE_7                             00074000    00003DAD =       15789. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00077715  _tilemap_attr_7                    tilemap_attr_7
-     0007787D  ___func_tileset_11                 tileset_11
-     0007787D  _tileset_11                        tileset_11
-     000779FF  ___func_tileset_12                 tileset_12
-     000779FF  _tileset_12                        tileset_12
-     00077B81  ___func_tileset_13                 tileset_13
-     00077B81  _tileset_13                        tileset_13
-     00077BC3  ___func_tileset_8                  tileset_8
-     00077BC3  _tileset_8                         tileset_8
-
+     00077865  _tileset_11                        tileset_11
+     000779E7  ___func_tileset_12                 tileset_12
+     000779E7  _tileset_12                        tileset_12
+     00077B69  ___func_tileset_13                 tileset_13
+     00077B69  _tileset_13                        tileset_13
+     00077BAB  ___func_tileset_8                  tileset_8
+     00077BAB  _tileset_8                         tileset_8
 ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
 Hexadecimal  [32-Bits]
 

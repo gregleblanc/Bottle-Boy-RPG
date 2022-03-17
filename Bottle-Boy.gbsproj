@@ -12429,7 +12429,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -12442,7 +12442,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -12466,7 +12466,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         },
                                         {
@@ -12479,7 +12479,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         }
                                     ]
@@ -12497,7 +12497,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         },
                                         {
@@ -12510,7 +12510,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         }
                                     ]
@@ -12542,7 +12542,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         },
                                         {
@@ -12555,7 +12555,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         }
                                     ]
@@ -12573,7 +12573,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         },
                                         {
@@ -12586,7 +12586,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "priority": false
                                         }
                                     ]
@@ -12608,7 +12608,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -12621,7 +12621,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 1,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -16992,8 +16992,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 931,
-        "worldScrollY": 315,
+        "worldScrollX": 877,
+        "worldScrollY": 356,
         "zoom": 424.857177734375,
         "customColorsEnabled": true,
         "sgbEnabled": false,
