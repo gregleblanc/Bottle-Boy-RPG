@@ -6980,7 +6980,7 @@
                 0,
                 15,
                 15,
-                0,
+                15,
                 15,
                 15,
                 15,
@@ -7752,7 +7752,15 @@
                 "dmg",
                 "dmg"
             ],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "960e6bb8-c0e0-4dd8-becb-03122f209f17"
+            ],
             "collisions": [
                 0,
                 0,
@@ -13428,6 +13436,27 @@
                     "id": "d5b095c5-5eb9-433e-a324-29cb6a20b1b8",
                     "x": 56,
                     "y": 11
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "48df47d9-41b1-473b-93c8-c7037b8802f0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "822db541-f1ed-4486-9767-104fb957677c",
+                    "x": 54,
+                    "y": 15
                 }
             ],
             "triggers": [
@@ -14918,8 +14947,8 @@
                                                     "args": {
                                                         "sceneId": "e9d2ff68-7819-41b6-84ca-3f3da721c0b8",
                                                         "x": 14,
-                                                        "y": 16,
-                                                        "direction": "",
+                                                        "y": 15,
+                                                        "direction": "down",
                                                         "fadeSpeed": 3,
                                                         "__collapse": false
                                                     },
@@ -55863,7 +55892,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 6,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         },
@@ -55876,7 +55905,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "palette": 0,
-                                            "paletteIndex": 1,
+                                            "paletteIndex": 6,
                                             "objPalette": "OBP0",
                                             "priority": false
                                         }
@@ -63531,9 +63560,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1777,
-        "worldScrollY": 2338,
-        "zoom": 279,
+        "worldScrollX": 4880,
+        "worldScrollY": 5463,
+        "zoom": 477.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
