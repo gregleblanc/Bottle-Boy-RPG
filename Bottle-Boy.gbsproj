@@ -16361,7 +16361,8 @@
                 "1ce69550-84a6-4090-ab4d-30c0694f1344",
                 null,
                 "bb7407e9-6a34-4985-83bd-67efdec0b0c0",
-                "d6093ab7-91d8-45de-b30c-309e4bf1e87c"
+                "d6093ab7-91d8-45de-b30c-309e4bf1e87c",
+                "8971b0d1-7730-4f99-9063-9adc8347a583"
             ],
             "collisions": [
                 15,
@@ -17373,76 +17374,10 @@
                             "args": {
                                 "variable": "32",
                                 "__collapseElse": true,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
-                                    {
-                                        "command": "EVENT_IF_TRUE",
-                                        "args": {
-                                            "variable": "L0",
-                                            "__collapseElse": true,
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Your backpack is your inventory.\nUse your backpack to store items\non your adventure."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "972e704d-54c0-4ca3-b527-8e17ab23017f"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_HIDE",
-                                                    "args": {
-                                                        "actorId": "a21be21d-eaba-4dfa-a7a5-10b96eb4b57a",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "6b53466b-3ce2-43f1-a2aa-d3f7e65dd8db"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_SET_STATE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "spriteStateId": "case-close",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "38851fb9-a1a0-4db5-8590-584ecf65a7c5"
-                                                },
-                                                {
-                                                    "command": "EVENT_WAIT",
-                                                    "args": {
-                                                        "time": 0.3,
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "0fc07048-1753-4eee-a736-aec212b4a80b"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_FALSE",
-                                                    "args": {
-                                                        "variable": "L0",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "94aeb721-48e5-434c-93ca-359bc36ec745"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_HIDE",
-                                                    "args": {
-                                                        "actorId": "bc5b1afc-a68d-412b-a58f-a148e1f37657",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "8ee4f1e6-0e6a-4f93-bb9b-bab56ac753d4"
-                                                }
-                                            ],
-                                            "false": []
-                                        },
-                                        "id": "cf3ce95b-7791-4081-9dce-44aad5655db1"
-                                    },
                                     {
                                         "command": "EVENT_ACTOR_SET_STATE",
                                         "args": {
@@ -17489,6 +17424,72 @@
                                 "false": []
                             },
                             "id": "53f15f81-378f-45c2-b953-3d198053f32a"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Your backpack is your inventory.\nUse your backpack to store items\non your adventure."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "972e704d-54c0-4ca3-b527-8e17ab23017f"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "a21be21d-eaba-4dfa-a7a5-10b96eb4b57a",
+                                            "__collapse": true
+                                        },
+                                        "id": "6b53466b-3ce2-43f1-a2aa-d3f7e65dd8db"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_SET_STATE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "spriteStateId": "case-close",
+                                            "__collapse": true
+                                        },
+                                        "id": "38851fb9-a1a0-4db5-8590-584ecf65a7c5"
+                                    },
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.3,
+                                            "__collapse": true
+                                        },
+                                        "id": "0fc07048-1753-4eee-a736-aec212b4a80b"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_FALSE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapse": true
+                                        },
+                                        "id": "94aeb721-48e5-434c-93ca-359bc36ec745"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_HIDE",
+                                        "args": {
+                                            "actorId": "bc5b1afc-a68d-412b-a58f-a148e1f37657",
+                                            "__collapse": true
+                                        },
+                                        "id": "8ee4f1e6-0e6a-4f93-bb9b-bab56ac753d4"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "cf3ce95b-7791-4081-9dce-44aad5655db1"
                         }
                     ],
                     "startScript": [
@@ -39567,6 +39568,50 @@
                                 {
                                     "id": "bf6edc5f-adcf-4f87-a048-5089f3975d16",
                                     "tiles": []
+                                },
+                                {
+                                    "id": "fb102b52-4bb6-4e7a-a016-2f02b318b676",
+                                    "tiles": [
+                                        {
+                                            "id": "98733428-bb81-4ea2-90bd-00f83e20f26d",
+                                            "x": -8,
+                                            "y": 8,
+                                            "sliceX": 48,
+                                            "sliceY": -8,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 5,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "8e53673e-75ee-4dd5-b4bd-e8292d7219d2",
+                                            "x": 0,
+                                            "y": 8,
+                                            "sliceX": 56,
+                                            "sliceY": -8,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 5,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "7433cde6-be03-4888-a628-294a95b631b6",
+                                            "x": 8,
+                                            "y": 8,
+                                            "sliceX": 64,
+                                            "sliceY": -8,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 5,
+                                            "priority": false
+                                        }
+                                    ]
                                 },
                                 {
                                     "id": "4f3bf5a0-81e0-48d6-965b-f337c90993a1",
@@ -84388,6 +84433,16 @@
             "colors": [
                 "E8F820",
                 "98B080",
+                "509878",
+                "302018"
+            ]
+        },
+        {
+            "id": "8971b0d1-7730-4f99-9063-9adc8347a583",
+            "name": "Palette 83",
+            "colors": [
+                "E8F820",
+                "C0B038",
                 "509878",
                 "302018"
             ]
