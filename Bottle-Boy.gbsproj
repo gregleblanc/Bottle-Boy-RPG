@@ -17688,6 +17688,14 @@
                                 "id": "baf44359-ea23-425f-83fe-88ceba84e4b6"
                             },
                             {
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "8e334a48-4852-48ec-8f21-a1086c6a5e49",
+                                    "speed": 7
+                                },
+                                "id": "2ea41238-6b2b-474b-b130-eda7408bd542"
+                            },
+                            {
                                 "command": "EVENT_ACTOR_MOVE_TO",
                                 "args": {
                                     "actorId": "8e334a48-4852-48ec-8f21-a1086c6a5e49",
@@ -17704,6 +17712,14 @@
                                     "__collapse": true
                                 },
                                 "id": "74b54955-d291-42b2-8239-34d088f7ff73"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "8e334a48-4852-48ec-8f21-a1086c6a5e49",
+                                    "speed": 15
+                                },
+                                "id": "5884f2c7-d1d3-439a-8c29-255ffc818a06"
                             },
                             {
                                 "command": "EVENT_ACTOR_SET_STATE",
@@ -54104,7 +54120,7 @@
             "numFrames": 16,
             "type": "animated",
             "filename": "Mom.png",
-            "checksum": "7d2f98a4a9cbf34062d44f246d558f8d4b551c0b",
+            "checksum": "b4543fa33d9142ca7d0ad6cb065ff657057a7695",
             "width": 256,
             "height": 16,
             "states": [
@@ -55158,7 +55174,7 @@
                     "flipLeft": true
                 }
             ],
-            "numTiles": 31,
+            "numTiles": 27,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -82339,9 +82355,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 7397,
-        "worldScrollY": 4411,
-        "zoom": 679,
+        "worldScrollX": 2758,
+        "worldScrollY": 1362,
+        "zoom": 282.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

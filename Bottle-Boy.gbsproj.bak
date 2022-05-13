@@ -17632,7 +17632,7 @@
                                         "Get your school bag and meet me \ndownstairs before you make us \nall late!"
                                     ],
                                     "avatarId": "",
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "6ba8b96d-bd37-437b-b5bc-50fba127556d"
                             },
@@ -17686,6 +17686,14 @@
                                     "__collapse": true
                                 },
                                 "id": "baf44359-ea23-425f-83fe-88ceba84e4b6"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "8e334a48-4852-48ec-8f21-a1086c6a5e49",
+                                    "speed": 7
+                                },
+                                "id": "2ea41238-6b2b-474b-b130-eda7408bd542"
                             },
                             {
                                 "command": "EVENT_ACTOR_MOVE_TO",
@@ -54104,7 +54112,7 @@
             "numFrames": 16,
             "type": "animated",
             "filename": "Mom.png",
-            "checksum": "7d2f98a4a9cbf34062d44f246d558f8d4b551c0b",
+            "checksum": "b4543fa33d9142ca7d0ad6cb065ff657057a7695",
             "width": 256,
             "height": 16,
             "states": [
@@ -55158,7 +55166,7 @@
                     "flipLeft": true
                 }
             ],
-            "numTiles": 31,
+            "numTiles": 27,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -82339,9 +82347,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 7397,
-        "worldScrollY": 4411,
-        "zoom": 679,
+        "worldScrollX": 2758,
+        "worldScrollY": 1362,
+        "zoom": 282.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
